@@ -1,24 +1,33 @@
-# ObjectId
+# node-time-uuid
 
-Node module to generate unique, time sortable indentifiers that can be used
+Node module to generate globally unique, time sortable indentifiers that can be used
 as database unique IDs.
-
 The identifiers are time sortable and you can recover the time stamp of when they
 were created down to micro-second resolution.
+Time sortable identifiers can very useful in situations where you want to sort
+your objects by time, for instance messages in a user's inbox.
 
-These are very useful if you want to sort messages on users' inboxes based
-solely on the object identifier.
+The generated IDs are not standard UUID, or GUID and are generated with the
+following format:
+
+  * 32 bit time
+  * 16 bit micro time
+  * 24 bit machine id
+  * 16 bit pid
+  * 24 bit increment
+
+And are stored internally as a node buffer.
 
 ## Install
 
 Simple installation with NPM
 
-    npm install object-id
+    npm install node-time-uuid
 
 
 ## Usage
 
-    var ObjectId = require("object-id");
+    var ObjectId = require("node-time-uuid");
 
     var id = new ObjectId();
 
@@ -52,6 +61,11 @@ ObjectId can be instanciated in several different ways:
 
 Supported encodings are hex, base64 and base64url
 
+## get()
+
+Returns a 15 byte Node.js Buffer object with the Id.
+
+   var buffer = id.get();
 
 ## toString(encoding)
 

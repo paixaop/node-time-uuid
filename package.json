@@ -1,5 +1,5 @@
 {
-    "name": "object-id",
+    "name": "node-time-uuid",
     "version": "0.1.0",
     "author" : "Pedro Paixao <paixaop@gmail.com>",
     "keywords":["object", "id", "timestamp", "sortable"],

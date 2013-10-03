@@ -7,7 +7,7 @@
  */
 
 var should = require('should');
-var ObjectId = require('../../object-id');
+var ObjectId = require('../../node-time-uuid');
 
 //512055ac-09b897-9d8fa1-511f-000002
 //USBVrAm4l52PoVEfAAAC
