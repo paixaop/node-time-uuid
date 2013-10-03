@@ -2,7 +2,9 @@
     "name": "node-time-uuid",
     "version": "0.1.0",
     "author" : "Pedro Paixao <paixaop@gmail.com>",
-    "keywords":["object", "id", "timestamp", "sortable"],
+    "keywords":["object", "id", "timestamp",
+                "sortable", "uuid", "guid",
+                "unique", "stamp"],
     "licenses": [{
         "type": "MIT",
         "url": "http://opensource.org/licenses/mit-license.php"
