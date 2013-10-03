@@ -45,7 +45,7 @@ Simple installation with NPM
 ## New Instance
 ObjectId can be instanciated in several different ways:
 
-    var ObjectId = require("object-id");
+    var ObjectId = require("node-time-uuid");
 
     // Create a new ID
     var id = new ObjectId();
