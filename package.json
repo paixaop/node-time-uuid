@@ -9,7 +9,7 @@
     }],
     "repository": {
         "type": "git",
-        "url": "https://github.com/paixaop/objectid.git"
+        "url": "https://github.com/paixaop/object-id.git"
     },
     "readmeFilename": "README.md",
     "dependencies": {
