@@ -98,9 +98,6 @@ Tests require Node mocha and istanbul modules to be installed .
 
     npm install mocha istanbul -g
 
-Tests need to connect to a Redis server. By default it tries to connect to localhost:6376.
-So you must have a running Redis server or the tests will fail.
-
 To run all module tests simply run:
 
     npm test
