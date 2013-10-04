@@ -65,7 +65,7 @@ Supported encodings are hex, base64 and base64url
 
 Returns a 15 byte Node.js Buffer object with the Id.
 
-   var buffer = id.get();
+    var buffer = id.get();
 
 ## toString(encoding)
 
