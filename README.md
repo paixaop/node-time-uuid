@@ -110,6 +110,8 @@ To obtain a test coverage report run
 
     npm cover
 
+Then open `./html-report/index.html` in your browser
+
 #License
 
 MIT License
