@@ -1,6 +1,6 @@
 {
     "name": "node-time-uuid",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "author" : "Pedro Paixao <paixaop@gmail.com>",
     "keywords":["object", "id", "timestamp",
                 "sortable", "uuid", "guid",
