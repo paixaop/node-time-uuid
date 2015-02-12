@@ -7,16 +7,15 @@ were created down to micro-second resolution.
 Time sortable identifiers can very useful in situations where you want to sort
 your objects by time, for instance messages in a user's inbox.
 
-The generated IDs are not standard UUID, or GUID and are generated with the
-following format:
+This module generates 15 byte IDs with the following format:
 
   * 32 bit time
-  * 16 bit micro time
+  * 24 bit micro time
   * 24 bit machine id
   * 16 bit pid
   * 24 bit increment
 
-And are stored internally as a node buffer.
+Please note that the generated IDs are not standard UUID, or GUID.
 
 ## Install
 
