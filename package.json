@@ -1,0 +1,25 @@
+{
+    "name": "node-time-uuid",
+    "version": "0.1.5",
+    "author" : "Pedro Paixao <paixaop@gmail.com>",
+    "keywords":["object", "id", "timestamp",
+                "sortable", "uuid", "guid",
+                "unique", "stamp"],
+    "licenses": [{
+        "type": "MIT",
+        "url": "http://opensource.org/licenses/mit-license.php"
+    }],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/paixaop/node-time-uuid.git"
+    },
+    "readmeFilename": "README.md",
+    "dependencies": {
+        "microtime" : ">=0.4.0",
+        "should"  : ""
+    },
+    "scripts": {
+        "test": "make test",
+        "cover": "make test-cov"
+    }
+}
